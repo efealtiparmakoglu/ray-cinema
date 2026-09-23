@@ -1,0 +1,105 @@
+{
+  "render": {
+    "width": 960,
+    "height": 540,
+    "spp": 120,
+    "max_depth": 8,
+    "exposure": 0.75,
+    "output": "renders/planet.png"
+  },
+  "sky": {
+    "top": [
+      0.01,
+      0.01,
+      0.03
+    ],
+    "bottom": [
+      0.02,
+      0.02,
+      0.05
+    ],
+    "strength": 1
+  },
+  "camera": {
+    "position": [
+      -3.4,
+      1.8,
+      -4.6
+    ],
+    "look_at": [
+      0,
+      0,
+      0
+    ],
+    "vfov": 42,
+    "aperture": 0.05,
+    "focus_distance": 5.8
+  },
+  "objects": [
+    {
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "radius": 1.6,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.35,
+          0.28,
+          0.22
+        ]
+      }
+    },
+    {
+      "center": [
+        3.1,
+        0.9,
+        1.2
+      ],
+      "radius": 0.42,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.7,
+          0.68,
+          0.62
+        ]
+      }
+    },
+    {
+      "center": [
+        -2.4,
+        -0.5,
+        1.9
+      ],
+      "radius": 0.28,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.55,
+          0.5,
+          0.45
+        ]
+      }
+    },
+    {
+      "center": [
+        -40,
+        22,
+        -30
+      ],
+      "radius": 4,
+      "material": {
+        "type": "emissive",
+        "albedo": [
+          1,
+          0.9,
+          0.7
+        ],
+        "emission": 6.0
+      }
+    }
+  ]
+}
