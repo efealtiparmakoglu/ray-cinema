@@ -1,0 +1,118 @@
+{
+  "render": {
+    "width": 800,
+    "height": 450,
+    "spp": 70,
+    "max_depth": 8,
+    "exposure": 1.15,
+    "output": "renders/alien.png"
+  },
+  "sky": {
+    "top": [
+      0.05,
+      0.12,
+      0.06
+    ],
+    "bottom": [
+      0.35,
+      0.12,
+      0.4
+    ],
+    "strength": 1.0
+  },
+  "camera": {
+    "position": [
+      0,
+      0.8,
+      -4.6
+    ],
+    "look_at": [
+      0,
+      0.8,
+      0
+    ],
+    "vfov": 42,
+    "aperture": 0.04,
+    "focus_distance": 4.6
+  },
+  "objects": [
+    {
+      "center": [
+        0,
+        -1000.2,
+        0
+      ],
+      "radius": 1000,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.12,
+          0.28,
+          0.14
+        ]
+      }
+    },
+    {
+      "center": [
+        0,
+        0.8,
+        0
+      ],
+      "radius": 0.8,
+      "material": {
+        "type": "metal",
+        "albedo": [
+          0.3,
+          0.9,
+          0.5
+        ],
+        "roughness": 0.08
+      }
+    },
+    {
+      "center": [
+        -1.9,
+        0.55,
+        -0.5
+      ],
+      "radius": 0.55,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.15,
+          0.6,
+          0.35
+        ]
+      }
+    },
+    {
+      "center": [
+        1.8,
+        0.7,
+        0.4
+      ],
+      "radius": 0.7,
+      "material": {
+        "type": "dielectric",
+        "ior": 1.5
+      }
+    },
+    {
+      "center": [
+        0,
+        4.2,
+        3
+      ],
+      "radius": 1.4,
+      "material": {
+        "type": "emissive",
+        "albedo": [
+          0.5,
+          1.0,
+          0.4
+        ],
+        "emission": 20
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "render": {
+    "width": 800,
+    "height": 450,
+    "spp": 70,
+    "max_depth": 8,
+    "exposure": 1.2,
+    "output": "renders/ember.png"
+  },
+  "sky": {
+    "top": [
+      0.02,
+      0.01,
+      0.02
+    ],
+    "bottom": [
+      0.25,
+      0.06,
+      0.02
+    ],
+    "strength": 1.0
+  },
+  "camera": {
+    "position": [
+      0,
+      0.7,
+      -4.8
+    ],
+    "look_at": [
+      0,
+      0.9,
+      0
+    ],
+    "vfov": 42,
+    "aperture": 0.04,
+    "focus_distance": 4.8
+  },
+  "objects": [
+    {
+      "center": [
+        0,
+        -1000.2,
+        0
+      ],
+      "radius": 1000,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.09,
+          0.04,
+          0.03
+        ]
+      }
+    },
+    {
+      "center": [
+        0,
+        0.8,
+        0
+      ],
+      "radius": 0.8,
+      "material": {
+        "type": "metal",
+        "albedo": [
+          0.4,
+          0.15,
+          0.08
+        ],
+        "roughness": 0.18
+      }
+    },
+    {
+      "center": [
+        -1.8,
+        0.4,
+        0.3
+      ],
+      "radius": 0.4,
+      "material": {
+        "type": "emissive",
+        "albedo": [
+          1,
+          0.35,
+          0.08
+        ],
+        "emission": 12
+      }
+    },
+    {
+      "center": [
+        1.9,
+        0.5,
+        -0.6
+      ],
+      "radius": 0.5,
+      "material": {
+        "type": "emissive",
+        "albedo": [
+          1,
+          0.55,
+          0.1
+        ],
+        "emission": 10
+      }
+    },
+    {
+      "center": [
+        0.2,
+        3.4,
+        2.4
+      ],
+      "radius": 1.1,
+      "material": {
+        "type": "emissive",
+        "albedo": [
+          1,
+          0.3,
+          0.05
+        ],
+        "emission": 14
+      }
+    }
+  ]
+}

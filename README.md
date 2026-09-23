@@ -21,6 +21,38 @@ The same glass scene filmed from 12 orbiting angles — one JSON, one flag, one 
 ![planet](renders/planet.png)
 Uzayda kayalık gezegen, iki uydu ve arkadan aydınlatılmış uzak bir yıldız. — *Uzayda kayalık gezegen, arkadan aydınlatılan uzak yıldız.*
 
+### 🌅 Sunset / Gün Batımı — [`scenes/sunset.json`](scenes/sunset.json)
+![sunset](renders/sunset.png)
+Rough-metal silhouettes against a burning gradient sky. — *Yanan degrade gökyüzünde pürüzlü metal siluetler.*
+
+### 🫧 Bubbles / Baloncuklar — [`scenes/bubbles.json`](scenes/bubbles.json)
+![bubbles](renders/bubbles.png)
+A family of glass bubbles on snow-white ground — refraction doing all the work. — *Kar beyazı zeminde cam baloncuk ailesi — bütün iş kırılmada.*
+
+### 🏆 Gold Rush / Altına Hücum — [`scenes/goldrush.json`](scenes/goldrush.json)
+![goldrush](renders/goldrush.png)
+Four gold spheres, four different roughness values, two colored rims — a materials study. — *Dört farklı pürüzlülükte altın küre, iki renkli kenar ışığı — malzeme etüdü.*
+
+### 👽 Alien / Uzaylı — [`scenes/alien.json`](scenes/alien.json)
+![alien](renders/alien.png)
+Emerald chrome under a violet sky, green sun on the horizon. — *Mor gökte zümrüt krom, ufukta yeşil güneş.*
+
+### ❄️ Snow / Kar — [`scenes/snow.json`](scenes/snow.json)
+![snow](renders/snow.png)
+Ice spheres on a white world — subtle blue refractions everywhere. — *Beyaz dünyada buz küreleri — her yerde soluk mavi kırılmalar.*
+
+### 🎛️ Studio / Stüdyo — [`scenes/studio.json`](scenes/studio.json)
+![studio](renders/studio.png)
+A chrome sphere under three colored studio lights — the product-shot look, pure path tracing. — *Üç renkli stüdyo ışığı altında krom küre — ürün çekimi görünümü.*
+
+### 🌸 Pastel / Pastel — [`scenes/pastel.json`](scenes/pastel.json)
+![pastel](renders/pastel.png)
+Soft pink and mint with a brushed-brass accent — the gentle one. — *Yumuşak pembe-nane ve fırçalı pirinç dokunuş.*
+
+### 🔥 Ember / Kor — [`scenes/ember.json`](scenes/ember.json)
+![ember](renders/ember.png)
+Three embers floating in the dark around a scorched metal heart. — *Karanlıkta kavrulan metalin çevresinde üç kor.*
+
 ## 🧱 How it works / Nasıl çalışır
 
 | Bileşen | Detay |

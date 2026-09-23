@@ -1,0 +1,117 @@
+{
+  "render": {
+    "width": 800,
+    "height": 450,
+    "spp": 70,
+    "max_depth": 8,
+    "exposure": 1.0,
+    "output": "renders/pastel.png"
+  },
+  "sky": {
+    "top": [
+      0.95,
+      0.85,
+      0.9
+    ],
+    "bottom": [
+      1.0,
+      0.95,
+      0.88
+    ],
+    "strength": 0.85
+  },
+  "camera": {
+    "position": [
+      0,
+      1.0,
+      -4.4
+    ],
+    "look_at": [
+      0,
+      0.75,
+      0
+    ],
+    "vfov": 42,
+    "aperture": 0.05,
+    "focus_distance": 4.4
+  },
+  "objects": [
+    {
+      "center": [
+        0,
+        -1000.2,
+        0
+      ],
+      "radius": 1000,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.92,
+          0.78,
+          0.82
+        ]
+      }
+    },
+    {
+      "center": [
+        -1.5,
+        0.62,
+        -0.3
+      ],
+      "radius": 0.62,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.98,
+          0.72,
+          0.8
+        ]
+      }
+    },
+    {
+      "center": [
+        0.1,
+        0.7,
+        0
+      ],
+      "radius": 0.7,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.72,
+          0.9,
+          0.82
+        ]
+      }
+    },
+    {
+      "center": [
+        1.7,
+        0.58,
+        0.4
+      ],
+      "radius": 0.58,
+      "material": {
+        "type": "metal",
+        "albedo": [
+          0.95,
+          0.85,
+          0.75
+        ],
+        "roughness": 0.12
+      }
+    },
+    {
+      "center": [
+        0.4,
+        1.9,
+        1.1
+      ],
+      "radius": 0.5,
+      "material": {
+        "type": "dielectric",
+        "ior": 1.5
+      }
+    }
+  ]
+}

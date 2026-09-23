@@ -1,0 +1,121 @@
+{
+  "render": {
+    "width": 800,
+    "height": 450,
+    "spp": 70,
+    "max_depth": 8,
+    "exposure": 1.0,
+    "output": "renders/bubbles.png"
+  },
+  "sky": {
+    "top": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "bottom": [
+      0.95,
+      0.98,
+      1.0
+    ],
+    "strength": 1.0
+  },
+  "camera": {
+    "position": [
+      0,
+      1.0,
+      -4.5
+    ],
+    "look_at": [
+      0,
+      0.9,
+      0
+    ],
+    "vfov": 42,
+    "aperture": 0.04,
+    "focus_distance": 4.5
+  },
+  "objects": [
+    {
+      "center": [
+        0,
+        -1000.2,
+        0
+      ],
+      "radius": 1000,
+      "material": {
+        "type": "lambertian",
+        "albedo": [
+          0.9,
+          0.92,
+          0.95
+        ]
+      }
+    },
+    {
+      "center": [
+        0,
+        0.9,
+        0
+      ],
+      "radius": 0.85,
+      "material": {
+        "type": "dielectric",
+        "ior": 1.5
+      }
+    },
+    {
+      "center": [
+        -1.7,
+        0.6,
+        -0.6
+      ],
+      "radius": 0.6,
+      "material": {
+        "type": "dielectric",
+        "ior": 1.5
+      }
+    },
+    {
+      "center": [
+        1.6,
+        0.75,
+        -0.3
+      ],
+      "radius": 0.68,
+      "material": {
+        "type": "dielectric",
+        "ior": 1.5
+      }
+    },
+    {
+      "center": [
+        0.7,
+        1.85,
+        0.7
+      ],
+      "radius": 0.5,
+      "material": {
+        "type": "dielectric",
+        "ior": 1.5
+      }
+    },
+    {
+      "center": [
+        -0.8,
+        1.9,
+        0.9
+      ],
+      "radius": 0.45,
+      "material": {
+        "type": "metal",
+        "albedo": [
+          0.95,
+          0.9,
+          0.85
+        ],
+        "roughness": 0.03
+      }
+    }
+  ]
+}
